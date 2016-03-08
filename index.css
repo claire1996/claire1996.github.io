@@ -1,0 +1,132 @@
+ul{
+	padding:15px 20px 15px 20px;
+	color: #B6F71D;
+}
+li{
+	display:inline;
+	padding: 0px 10px 0px 10px;
+	text-decoration:none;
+	float:center;
+	margin: 20px 0px -20px 180px;
+	font-color:#B6F71D;
+
+}
+
+body {
+	background-color: #232323;
+	margin: 0 auto;
+	font-family: helvetica, sans-serif;
+}
+div {
+	height: 400px;
+	background-size: cover;
+	position: relative;
+	margin: -80px 320px 0 320px;
+	border-radius: 18px;
+	padding: 0 0 0 0;
+}
+
+p {
+  	color: white;
+ 	font-size: 80px;
+  	background-color: black;
+  	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  	padding: 130px;
+  	line-height: 70px;
+  	text-align: right;
+  	position: right;
+  	bottom: 0;
+}
+
+.mainimage {
+	background-image: url("http://i.huffpost.com/gen/2745340/images/o-ORGANIC-facebook.jpg");
+	color:white;
+	font-weight: bold;
+	text-align: center;
+}
+form{
+	padding-top: 75px;
+	padding-left: 375px;
+	color:#232323;
+}
+h4{
+	font-family: 'Oswald',sans-serif;
+	font-weight: bold;
+	color: #232323;
+	font-size: 25px;
+}
+.social {
+	height: 30px;
+	width: 85px;
+	border: white;
+	position: right;
+	background-color: #000080;
+	margin: -180px 0 200px 120px;
+	padding: 10px;
+}
+.starters {
+	background-image: url("http://www.yayasyummys.com/uploads/4/2/6/6/42662085/s493953248734294443_p12_i1_w614.jpeg");
+	height:200px;
+	width: 200px;
+	margin: -470px 0px 300px 1035px;
+}
+.maincourse {
+	background-image: url("http://product-images.imshopping.com/nimblebuy/theholeinone-538118-regular.jpg");
+	height: 200px;
+	width: 200px;
+	margin: -300px 0px 300px 1035px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	position: center;
+	font-size: 20px;
+}
+h1{
+	color: #B6F71D;
+	font-size: 100px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin: 0px 0 -25 0;
+}
+h2{
+	color: #FFFFFF;
+	margin: 0px 0 70px 0;
+	line-height:50px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+img {
+	float: left;
+	height: 200px;
+	width: 280px;
+	margin: -70px 0px 0 30px;
+	border-radius: 100px;
+}
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#B6F71D; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: #232323;
+    font-weight: bold;
+}
+@media(max-width:500px){
+h1{
+ font-size:50px;
+ margin-top: 20px;
+ line-height: 40px;
+}
